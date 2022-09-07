@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "@strapi/plugin-graphql": "^4.0.5",
+    "fs-extra": "^10.0.0",
+    "lodash.set": "^4.3.2",
+    "mime-types": "^2.1.27",
+    "@strapi/strapi": "4.3.6",
+    "@strapi/plugin-users-permissions": "4.3.6",
+    "@strapi/plugin-i18n": "4.3.6",
+    "better-sqlite3": "7.4.6"
+  },
+  "name": "backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "2d3b094b-d177-4a7d-8e7b-837eca15ed5b",
+    "template": "@strapi/template-blog@2.0.3"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
